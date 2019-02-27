@@ -15,8 +15,7 @@ public class TestController {
 
     @RequestMapping("test")
     public String test(){
-//        System.out.println("111");
-//        testService.testSave();
+        testService.testSave();
         return "test";
     }
 
